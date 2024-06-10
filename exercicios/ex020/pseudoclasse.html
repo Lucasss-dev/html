@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoClasses</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: purple;
+            height: 200px;
+            width: 200px;
+            border: 2px solid rgba(0, 0, 0, 0.603);
+            padding: 10px;
+            text-align: center;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            background-color: lightpink;
+            display: block;
+            color: white;
+        }
+
+        div:hover {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudoclasses</h1> 
+    <div>Teste 01
+        <p>Olá</p>
+    </div>
+    <div>Teste 02
+        <p>tudo bem?</p>
+    </div>
+    <div>Teste 03
+        <p>com você?</p>
+    </div>   
+</body>
+</html>

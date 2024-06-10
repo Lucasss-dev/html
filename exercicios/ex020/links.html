@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+         # = ID
+         . = CLASS
+         : = PSEUDO-CLASS
+         :: = PSEUDO-ELEMENTS
+         > = CHILDREN
+         */
+        
+        body {
+            background-color: rgba(166, 255, 148, 0.253);
+            font-family: sans-serif;
+        }
+        a {
+            color: rgb(7, 192, 192);
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a::before {
+            content: "➥ ";
+        }
+        a::after {
+            content: " ✔";
+        }
+        .especial {
+            background-color: rgba(55, 0, 255, 0.253);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul type="square">
+        <li><a href="https://github.com/Albertnoteinstein?tab=repositories" target="_blank" rel="external" class="especial">Repositório do github</a></li>
+        <li><a href="https://color.adobe.com/pt/create/color-wheel" target="_blank" rel="external">Paleta de cores adobe</a></li>
+        <li><a href="https://coolors.co" target="_blank" rel="external">Coolours</a></li>
+    </ul>
+</body>
+</html>

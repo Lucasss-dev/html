@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*  
+     TUDO QUE EM HTML É "ID" = VIRA "#" EM CSS
+     TUDO QUE EM HTML É "CLASS" = EM CSS É "."
+*/     
+
+body {
+    background-color: #03a7865e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #006954;
+}
+
+h2 {
+    color: #039174;
+}
+
+h1#principal {
+    color: white;
+    text-align: center;
+    background-color: #008B70;
+}
+
+p {
+    text-align: justify;
+}
+
+.simples {
+    color: #039122;
+
+}
+
+.medio {
+    color: #033591;
+
+}
+
+.avancado {
+    color: white;
+
+}
+
+.destaque {
+    background-color: green;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando fundos</title>
+    <style>
+        body {
+            background-image: url(imagens/wallpaper005.jpg);
+            text-align: center;
+        }
+
+        .quadrado {
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.404);
+            border: 2px solid red;
+            height: 300px;
+            width: 300px;
+            border-radius: 30px;
+        }
+
+        div#q1 {
+            background-color: rgba(211, 167, 56, 0.753);
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+
+        div#q3 {
+            background-image: url(imagens/pattern003.png);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Testando alguns backgrounds</h1>
+    <div class="quadrado" id="q1">
+        <button>Click me</button>
+    </div>
+    <div class="quadrado" id="q2">
+        <button>Não me Clique</button>
+    </div>
+    <div class="quadrado" id="q3">
+        <button>Hello</button>
+    </div>
+</body>
+</html>

@@ -5,8 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --fonte1: "Passion One";
-    --fonte2: "Sriracha";
+    --fonte1: "Passion One", "cursive";
+    --fonte2: "Sriracha", "cursive";
 }
 
 * {
@@ -28,7 +28,7 @@ header {
 header > h1 {
     padding-top: 50px;
     font-family: var(--fonte1);
-    font-size: 95px;
+    font-size: 10vw;
     font-variant: small-caps;
 }
 
@@ -46,15 +46,33 @@ header a, footer a {
 
 section {
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 14vh;
     line-height: 2em;
-    padding-left: 50px;
+    padding-left: 25px;
+    background-attachment: fixed;
 }
 
 section > p {
-    font-size: 33px;
+    padding-bottom: 2em;
+    font-size: 3.5vw;
     font-family: var(--fonte2);
     line-height: 2em;
+}
+
+section.fundoimagem > p {
+    text-shadow: 7px 1px 4px rgba(0, 0, 0, 0.664);
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 
 .fundobranco {
@@ -64,11 +82,14 @@ section > p {
 .fundoimagem {
     color: white;
     background-color: rgba(88, 2, 2, 0.808);
+    box-shadow: inset 0px 0px 15px 8px rgba(0, 0, 0, 0.39);
 }
 
 .fundoimagem > p {
-    width: 450px;
-    background-color: rgba(0, 0, 0, 0.514);
+    display: inline-block;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 10px;
 }
 
 footer {

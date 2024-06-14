@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        table {
+            width: 1000px;
+            height: 100px;
+            border-collapse: collapse;
+            margin: auto;
+            margin-top: 150px;
+        }
+
+        td, th {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        th {
+            background-color: rgba(255, 0, 0, 0.521);
+            box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.315);
+        }
+
+        .estados {
+            box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.123);
+            background-color: rgba(28, 134, 7, 0.521);;
+            text-align: center;
+            font-weight: bold;
+            width: 250px;
+        }
+
+        td.estados:hover {
+            background-color: white;
+            font-size: 13px;
+            transition-duration: 0.7s;
+        }
+
+        h1 {
+            text-align: center;
+            font-style: italic;
+        }
+
+        h1:hover {
+            text-shadow: 0px 0px 8px black;
+            transition-duration: 0.5s;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Unidades Federativas do Brasil por população</h1>
+    <table>
+        <thead>
+            <tr>
+                <th class="estados">UF</th>
+                <th>População</th>
+                <th>Capital</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="estados">São Paulo</td>
+                <td>45.919.049</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td class="estados">Minas Gerais</td>
+                <td>20.538.718</td>
+                <td>Belo Horizonte</td>
+            </tr>
+            <tr>
+                <td class="estados">Rio de Janeiro</td>
+                <td>16.054.524</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+            <tr>
+                <td class="estados">Bahia</td>
+                <td>14.141.626</td>
+                <td>Salvador</td>
+            </tr>
+            <tr>
+                <td class="estados">Paraná</td>
+                <td>11.444.380</td>
+                <td>Curitiba</td>
+            </tr>
+            <tr>
+                <td class="estados">Rio Grande do Sul</td>
+                <td>10.882.965</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td class="estados">Pernambuco</td>
+                <td>9.058.931</td>
+                <td>Recife</td>
+            </tr>
+            <tr>
+                <td class="estados">Ceará</td>
+                <td>8.794.957</td>
+                <td>Fortaleza</td>
+            </tr>
+            <tr>
+                <td class="estados">Pará</td>
+                <td>8.121.025</td>
+                <td>Belém</td>
+            </tr>
+            <tr>
+                <td class="estados">Santa Catarina</td>
+                <td>7.610.361</td>
+                <td>Florianóplis</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

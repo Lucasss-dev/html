@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tabela grande sobre UNIDADES FEDERATIVAS DO BRASIL POR POPULAÇÃO">
     <title>Tabelas Grandes</title>
 
     <style>
         body {
             font-family: sans-serif;
+        }
+
+        h1 {
+            text-align: center;
         }
 
         table {
@@ -42,27 +47,38 @@
             transition-duration: 0.7s;
         }
 
-        h1 {
+        caption {
             text-align: center;
+            border: 1px solid black;
             font-style: italic;
+            padding: 15px;
+            border-radius: 10px 10px 0px 0px;
+            font-size: 1.5em;
+            font-weight: 600;
+            background-color: lightgray;
         }
 
-        h1:hover {
+        caption:hover {
             text-shadow: 0px 0px 8px black;
             transition-duration: 0.5s;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: rgba(109, 110, 109, 0.253);;
         }
 
     </style>
 
 </head>
 <body>
-    <h1>Unidades Federativas do Brasil por população</h1>
+    <h1>Tabelas Grandes</h1>
     <table>
+        <caption>Unidades Federativas do Brasil por população</caption>
         <thead>
             <tr>
-                <th class="estados">UF</th>
-                <th>População</th>
-                <th>Capital</th>
+                <th scope="col" class="estados">UF</th>
+                <th scope="col">População</th>
+                <th scope="col">Capital</th>
             </tr>
         </thead>
         <tbody>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expansão de Celulas</title>
+    <style>
+        table {
+            width: 500px;
+            height: 150px;
+            background-color: lightcoral;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        caption {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de Células</h1>
+    <table>
+        <caption>Células Mescladas</caption>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+        </tr>
+        <tr>
+            <td rowspan="2">D</td>
+            <td rowspan="2">E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td colspan="2">K</td>
+        </tr>
+    </table>
+</body>
+</html>

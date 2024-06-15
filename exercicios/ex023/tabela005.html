@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Escola</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        table {
+            width: 900px;
+            height: 350px;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            border: 1px solid black;
+        }
+
+        th {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        td {
+            font-weight: bolder;
+        }
+
+        .medias {
+            text-align: left;
+            background-color: gray;
+            color: white;
+            padding-left: 10px;
+            
+        }
+
+        .mediastexto {
+            background-color: gray;
+            text-align: center;
+            color: white;
+        }
+
+        .materia {
+            text-align: left;
+            padding-left: 5px;
+        }
+
+        .titulo {
+            font-weight: bolder;
+            text-align: center;
+            background-color: gray;
+            color: lightgray;
+            text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <thead class="titulo">
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+                <tr>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td class="materia">Matemática</td>
+                <td>9.5</td>
+                <td>8.7</td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td class="materia">Física</td>
+                <td>100</td>
+                <td>8.8</td>
+                <td>7.9</td>
+            </tr>
+            <tr>
+                <td class="materia">Química</td>
+                <td>6.6</td>
+                <td>7.8</td>
+                <td>6.4</td>
+            </tr>
+            <tr>
+                <td class="materia">Biologia</td>
+                <td>5.5</td>
+                <td>6.6</td>
+                <td>6.9</td>
+            </tr>
+            <tr>
+                <th class="medias" colspan="4">Média de Exatas</th>
+                <td class="mediastexto">7.6</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td class="materia">História</td>
+                <td>7.5</td>
+                <td>7.2</td>
+                <td>6.5</td>
+            </tr>
+            <td class="materia">Geografia</td>
+            <td>6.5</td>
+            <td>7.4</td>
+            <td>6.0</td>
+            <tr>
+                <th class="medias" colspan="4">Média de Humanas</th>
+                <td class="mediastexto">6.6</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

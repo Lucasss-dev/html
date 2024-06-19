@@ -7,5 +7,23 @@
 </head>
 <body>
     <h1>Elementos color, range e file</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="cor">Cor: </label>
+            <input type="color" name="cor" id="cor">
+        </p>
+        <p>
+            <label for="nivel">Qualide do Produto: </label>
+            <input type="range" name="nivel" id="nivel" min="1" max="10">
+        </p>
+        <p>
+            <label for="file">Envio de Imagem</label>
+            <input type="file" name="file" id="file">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>

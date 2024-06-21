@@ -1,3 +1,13 @@
 @charset "UTF-8";
 
 /* Aparelho Retrato */
+
+body {
+    background-color: black;
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}
+
+h1 {
+    color: green;
+}

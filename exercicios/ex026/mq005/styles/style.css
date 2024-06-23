@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* Versão MOBILE FIRST */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --cortexto: #242d40;
+    --corfundo: #F2E2CE;
+    --corheader: #e9b97e;
+    --fontenoticia: "Mulish";
+}
+
+body, html {
+    background-color: var(--corfundo);
+}
+
+header {
+    background-color: var(--corheader);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.267);
+}
+
+header > h1 {
+    text-align: center;
+    font-family: serif;
+    color: black;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.267);
+    padding: 20px;
+    font-size: 2.5em;
+}
+
+.material-icons {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.material-icons:hover {
+    background-color: #bb9566;
+    border: 1px solid #a08158;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #bb9566;
+    border-top: 2px solid #a08158;
+}
+
+menu > ul > li > a:hover {
+    background-color: #ac8a61;
+    transition-duration: 0.4s;
+}
+
+main {
+    width: 90vw;
+    background-color: rgba(255, 255, 255, 0.527);
+    color: black;
+    font-family: "Mulish";
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.178);
+}
+
+article h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.9em;
+    font-family: serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+article p {
+    text-align: justify;
+
+    text-indent: 15px;
+    padding: 10px;
+}

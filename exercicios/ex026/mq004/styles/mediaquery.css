@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Todas mídias */
+
+/* TYPICAL DEVICES BREAKPOINTS
+-------------------------------
+Pequenas telas: 600px 
+Celular: 600 pra cima
+Tablets: 768 pra cima
+Laptops: 992 pra cima
+Telas Grandes: 1200 pra cima
+*/
+
+@media screen and (min-widht: 600px) {
+    body {
+        background-image: url("../imagens/back-tablet.jpg") ;
+    }
+}
+
+@media screen  and (min-widht: 992px) and (max-widht: 1200px) {
+    
+}
+
+@media screen and (min-widht: 1200px) {
+
+}

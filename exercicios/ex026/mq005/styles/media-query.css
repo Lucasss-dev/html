@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* TYPICAL DEVICES BREAKPOINTS
+-------------------------------
+Pequenas telas: 600px pra baixo
+Celular: 600 pra cima
+Tablets: 768 pra cima
+Laptops: 992 pra cima
+Telas Grandes: 1200 pra cima
+-------------------------------
+
+*/
+
+
+@media screen and (min-width: 992px) {
+    i.material-icons {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+        width: 100px;
+    }
+
+    main {
+        width: 768px;
+    }
+
+}

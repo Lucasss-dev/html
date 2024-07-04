@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="nothing" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masc" checked value="M"> Masculino
+            <input type="radio" name="sexo" id="fem" value="F"> Feminino
+        </fieldset>
+        <fieldset>
+            <legend>Melhores Esportes</legend>
+            <input type="checkbox" name="esbas" id="esbas"> <label for="esbas">Basquete</label> <br>
+            <input type="checkbox" name="esfut" id="esfut"> <label for="esfut">Futebol</label> <br>
+            <input type="checkbox" name="esten" id="esten"> <label for="esten">Tênis</label> <br>
+            <input type="checkbox" name="nenhum" id="nenhum"> <label for="nenhum">Nenhum dos acima</label>
+        </fieldset>
+        <p>
+            <input class="botao" type="submit" value="Enviar">
+            <input class="botao" type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
